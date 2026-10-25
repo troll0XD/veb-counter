@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+body{
+    background-color: #643A71;
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Seymour One";
+}
+.title{
+    font-size: 64px;
+    color: #FEC0CE; 
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-shadow: 0px 9px 4px rgba(0,0,0,0.25);
+}
+.counter{
+    font-size: 120px;
+    color: #FF91F4; 
+    margin-top: 165px;
+    margin-bottom: 59px;
+    text-shadow: 0px 9px 4px rgba(0,0,0,0.25);
+}
+.button__plus{
+    font-family: "Seymour One";
+    background-color: #8B5FBF;
+    font-size: 60px;
+    color: #FEC0CE;
+    width: 172px;
+    height: 82px;
+    border-radius: 39px;
+    box-shadow: 0px 9px 4px rgba(0,0,0,0.25);
+    text-shadow: 0px 7px 4px rgba(0,0,0,0.25);
+}
+
+.button__minus{
+    font-family: "Seymour One";
+    background-color: #8B5FBF;
+    font-size: 60px;
+    color: #FEC0CE;
+    width: 172px;
+    height: 82px;
+    border-radius: 39px;
+    box-shadow: 0px 9px 4px rgba(0,0,0,0.25);
+    text-shadow: 0px 7px 4px rgba(0,0,0,0.25);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 456px;
+}
+
+.button__null{
+    margin-top: 82px;
+    font-family: "Seymour One";
+    background-color: #8B5FBF;
+    font-size: 32px;
+    color: #D6B4FF;
+    width: 456px;
+    height: 102px;
+    border-radius: 39px;
+    box-shadow: 0px 9px 4px rgba(0,0,0,0.25);
+    text-shadow: 0px 9px 4px rgba(0,0,0,0.25);
+}
